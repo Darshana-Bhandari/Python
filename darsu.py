@@ -6,7 +6,6 @@
 # - User Input
 # - Practice Questions
 
-
 # ---------------
 # Printing Output
 # ----------------
@@ -22,6 +21,7 @@ print(23 + 32)
 # ------------------------
 # Variables and Data Types
 # -------------------------
+
 name = "Darshana"
 age = 23
 price = 25.99
@@ -35,15 +35,18 @@ print("My age is:", age)
 print("My price is:", price)
 
 # Copying variable value
+
 age2 = age
 print(age2)
 
 # Checking data types
+
 print(type(name))
 print(type(age))
 print(type(price))
 
 # Different ways to create strings
+
 name1 = "darsu"
 name2 = 'darsu'
 name3 = '''darsu'''
@@ -53,32 +56,33 @@ print(name2)
 print(name3)
 
 # Boolean and None data types
+
 age3 = 23
 old = False
-a = None
+none_value = None
 
 print(type(old))
-print(type(a))
+print(type(none_value))
 
 # ---------------------
 # Arithmetic Operations
 # ----------------------
 
-a = 3
-b = 8
+num1 = 3
+num2 = 8
 
-result = a + b
+result = num1 + num2
 print("Addition:", result)
 
-c = 3
-d = 8
+num3 = 3
+num4 = 8
 
-result = c - d
+result = num3 - num4
 print("Subtraction:", result)
 
-# ------------------------------------------
+# ---------------------
 # Arithmetic Operators
-# ------------------------------------------
+# ---------------------
 
 e = 5
 f = 10
@@ -90,9 +94,9 @@ print("Division:", e / f)
 print("Modulus:", e % f)
 print("Power:", e ** f)
 
-# ------------------------------------------
+# ---------------------
 # Relational Operators
-# ------------------------------------------
+# ---------------------
 
 g = 30
 h = 10
@@ -104,9 +108,9 @@ print(g >= h)
 print(g < h)
 print(g <= h)
 
-# ------------------------------------------
+# ----------------------
 # Assignment Operators
-# ------------------------------------------
+# ----------------------
 
 num = 10
 num = num + 10
@@ -116,30 +120,33 @@ pye = 10
 pye += 10
 print("pye:", pye)
 
-# ------------------------------------------
+# ---------------------
 # Logical Operators
-# ------------------------------------------
+# ---------------------
 
 i = 50
 j = 30
 
 # NOT operator
+
 print(not False)
 print(not (i > j))
 
 # AND operator
+
 val1 = True
 val2 = False
 
 print("AND operator:", val1 and val2)
 
 # OR operator
+
 print("OR operator:", val1 or val2)
 print("OR operator:", (i == j) or (i > j))
 
-# ------------------------------------------
+# --------------------
 # Type Conversion
-# ------------------------------------------
+# --------------------
 
 k = 2
 l = 4.24
@@ -147,18 +154,19 @@ l = 4.24
 result = k + l
 print("Type conversion:", result)
 
-ab = int("5")
-ba = 4.28
+integer_num = int("5")
+float_num = 4.28
 
-result = ab + ba
-print(type(ab))
+result = integer_num + float_num
+print(type(integer_num))
 print("Type conversion:", result)
 
-# ------------------------------------------
+# ---------------
 # User Input
-# ------------------------------------------
+# ---------------
 
-input("Enter your name: ")
+user_name = input("Enter your name: ")
+print("Hello", user_name)
 
 surname = input("Enter your surname: ")
 print("Thank you", surname)
@@ -169,21 +177,21 @@ print(type(value), value)
 value1 = int(input("Enter a number: "))
 print(type(value1), value1)
 
-# ------------------------------------------
+# -------------------------
 # User Information Program
-# ------------------------------------------
+# -------------------------
 
 name = input("Enter name: ")
-age = input("Enter age: ")
-marks = input("Enter marks: ")
+age = int(input("Enter age: "))
+marks = float(input("Enter marks: "))
 
 print("Welcome", name)
 print("Age =", age)
 print("Marks =", marks)
 
-# ==========================================
+# =====================
 # Practice Questions
-# ==========================================
+# ======================
 
 # Question 1: Sum of two numbers
 
@@ -205,6 +213,7 @@ z = float(input("Enter second number: "))
 print("Average =", (y + z) / 2)
 
 # Question 4: Check if first number is greater than
+
 # or equal to second number
 
 w = float(input("Enter first number: "))
