@@ -130,6 +130,14 @@ int("5")
 val1 = int(input("enter somethingd: "))
 print(type(val1), val1)
 
+name = input("enter name:")
+age = input("enter age:")
+marks = input("enter marks:")
+
+print("welcome", name)
+print("age =", age)
+print("marks =", marks)
+
 
 
 
