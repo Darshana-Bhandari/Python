@@ -149,7 +149,10 @@ print("sum=", first + second )
 side = float(input("enter square side: "))
 print("area =", side ** 2)
 
+Y = float(input("enter first:"))
+Z = float(input("enter second:"))
 
+print("avg=", (Y + Z)/2)
 
 
 
